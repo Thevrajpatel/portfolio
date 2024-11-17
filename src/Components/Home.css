@@ -1,0 +1,40 @@
+
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+  }
+  
+  .welcome-section {
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .explore-button {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .explore-button:hover {
+    background-color: #21a1f1;
+  }
+  
